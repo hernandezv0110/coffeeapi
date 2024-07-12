@@ -1,0 +1,56 @@
+body {
+    background-image: url('https://img.freepik.com/free-photo/top-view-coffe-with-copy-space_23-2148464796.jpg?t=st=1720549848~exp=1720553448~hmac=5615597c553d83ea4a60063d0619b3074c9b3370235a6049cab87820fd05a898&w=2000');
+    background-size:cover;
+    color: #ffffff;
+    padding-top: 40vh;
+  }
+
+  .navbar-brand {
+    padding-left: 1vw; /* Add some padding to the left */
+  }
+
+  #greeting {
+    background-color: #402b17;
+    color: white;
+    max-height: 35vh; /* Adjust height proportionally */
+    font-family: fantasy;
+    max-width: 80vw;
+    opacity: 0.7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#text {
+    font-size: 3vw;
+    opacity: 1;
+}
+
+.custom-btn {
+    background-color: rgb(190, 138, 76); 
+    border-color: #000000; 
+    color: rgb(0, 0, 0);
+    font-size: 3vh;
+    padding: 10px 20px;
+    border-radius: 10px !important;
+    white-space: nowrap;
+}
+
+.custom-btn:hover {
+    background-color: #3b7049;
+    border-color: #000000;
+}
+
+.drink-row {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  .drink-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
