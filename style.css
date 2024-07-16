@@ -1,9 +1,17 @@
-body {
+#main-body {
     background-image: url('https://img.freepik.com/free-photo/top-view-coffe-with-copy-space_23-2148464796.jpg?t=st=1720549848~exp=1720553448~hmac=5615597c553d83ea4a60063d0619b3074c9b3370235a6049cab87820fd05a898&w=2000');
     background-size:cover;
     color: #ffffff;
     padding-top: 40vh;
   }
+
+#iced-body {
+    background-color: rgb(161, 128, 103);
+}
+
+#hot-body {
+    background-color: rgb(161, 128, 103);
+}
 
   .navbar-brand {
     padding-left: 1vw; /* Add some padding to the left */
