@@ -1,5 +1,5 @@
 #main-body {
-    background-image: url('https://img.freepik.com/free-photo/top-view-coffe-with-copy-space_23-2148464796.jpg?t=st=1720549848~exp=1720553448~hmac=5615597c553d83ea4a60063d0619b3074c9b3370235a6049cab87820fd05a898&w=2000');
+    background-image: url('https://images.unsplash.com/photo-1541167760496-1628856ab772?q=80&w=2837&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-size:cover;
     color: #ffffff;
     padding-top: 40vh;
@@ -55,10 +55,16 @@
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 8px;
+    border-color: black;
   }
   .drink-image {
     width: 150px;
     height: 150px;
     object-fit: cover;
     border-radius: 8px;
+    margin-right: 10px;
+  }
+
+  .mb-4 {
+    font-family: fantasy;
   }

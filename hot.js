@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
           const drinkImage = document.createElement('img');
           drinkImage.src = drink.image;
           drinkImage.alt = drink.title;
-          drinkImage.className = 'drink-image mr-3';
+          drinkImage.className = 'drink-image mr-1';
     
           const drinkDetails = document.createElement('div');
           drinkDetails.className = 'drink-details';
