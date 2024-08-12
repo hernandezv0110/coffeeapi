@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", function() {
         const resp = await fetch('https://api.sampleapis.com/coffee/hot');
         const data = await resp.json();
         displayDrinks(data);
-        //output.textContent = JSON.stringify(data, null, 2);
       } catch (err) {
         output.textContent = err.message;
       }

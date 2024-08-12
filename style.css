@@ -14,13 +14,13 @@
 }
 
   .navbar-brand {
-    padding-left: 1vw; /* Add some padding to the left */
+    padding-left: 1vw; 
   }
 
   #greeting {
     background-color: #402b17;
     color: white;
-    max-height: 35vh; /* Adjust height proportionally */
+    max-height: 35vh;
     font-family: fantasy;
     max-width: 80vw;
     opacity: 0.7;
